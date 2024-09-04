@@ -1,0 +1,46 @@
+.grid-container {
+    margin: 10% auto;
+  }
+  
+  .grid {
+    white-space: pre;
+  }
+  
+  button {
+    margin: 2px;
+  }
+
+
+  /* Light Mode */
+.light-mode .node {
+  outline: 1px solid rgb(175, 216, 248);
+}
+
+.light-mode .node-wall {
+  background-color: rgb(12, 53, 71);
+}
+
+.light-mode .node-start {
+  background-color: green;
+}
+
+.light-mode .node-finish {
+  background-color: red;
+}
+
+/* Dark Mode */
+.dark-mode .node {
+  outline: 1px solid #3c3c3c;
+}
+
+.dark-mode .node-wall {
+  background-color: #606060;
+}
+
+.dark-mode .node-start {
+  background-color: #00ff00;
+}
+
+.dark-mode .node-finish {
+  background-color: #ff0000;
+}
